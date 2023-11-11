@@ -1,5 +1,4 @@
 # qa_cypress_exam
-QA Cypress Exam
 
 ## Tests:
 1. Bar graph test
@@ -15,4 +14,9 @@ QA Cypress Exam
    - validation of the accordion panels depending on the search string and if any child of the parent is selected
   
 ## How to run:
-1. 
+1. Download infor-qa-exam.cy.js script to local machine.
+2. Install Cypress.
+3. Run the script. Please refer to [Cypress](https://docs.cypress.io/guides/guides/command-line) page.
+
+## Results:
+![](https://github.com/narancog/qa_cypress_exam/blob/main/Infor-exam-result.png)
