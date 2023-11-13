@@ -13,10 +13,27 @@
    - included multiple search string as data
    - validation of the accordion panels depending on the search string and if any child of the parent is selected
   
-## How to run:
-1. Download infor-qa-exam.cy.js script to local machine.
-2. Install Cypress.
-3. Run the script. Please refer to [Cypress](https://docs.cypress.io/guides/guides/command-line) page.
 
+
+## How to run:
+### Prerequisite:
+  - Node.js
+  - NPM
+### Steps:
+1. Choose or create your root folder
+2. Open command prompt or powershell, and navigate to the root folder
+   ```
+   cd <your-root-directory>
+   ```
+3. Install cypress via CLI
+   ```
+   npm install cypress --save-dev
+   ```
+4. Download the **\e2e\\** folder from Github to the Cypress **\node_modules\cypress\\** installation directory 
+5. Execute the command to run the test
+   ```
+   npx cypress run --headed --spec "cypress/e2e/infor-qa-exam.cy.js"
+   ```
+   
 ## Results:
 ![](https://github.com/narancog/qa_cypress_exam/blob/main/Infor-exam-result.png)
