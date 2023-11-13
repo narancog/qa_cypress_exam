@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "cy:run": "cypress run --headed --spec \"cypress/e2e/infor-qa-exam.cy.js\""
+    }
+}
