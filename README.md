@@ -12,8 +12,6 @@
 3. App menu test
    - included multiple search string as data
    - validation of the accordion panels depending on the search string and if any child of the parent is selected
-  
-
 
 ## How to run:
 ### Prerequisite:
@@ -36,4 +34,10 @@
    ```
    
 ## Results:
+**Headless Result**
+
+![](https://github.com/narancog/qa_cypress_exam/blob/main/infor-cli-result.png)
+
+**UI Result**
+
 ![](https://github.com/narancog/qa_cypress_exam/blob/main/Infor-exam-result.png)
