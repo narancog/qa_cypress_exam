@@ -32,6 +32,20 @@
    ```
    npx cypress run --headed --spec "cypress/e2e/infor-qa-exam.cy.js"
    ```
+
+### Alternative running of test via Cypress interface:
+### Prerequisite:
+   - Steps 1 to 4 are already completed from the [above steps](https://github.com/narancog/qa_cypress_exam/edit/main/README.md#how-to-run)
+### Steps:
+5. Execute the command to open Cypress interface
+   ```
+   npx cypress open
+   ```
+6. Choose **E2E Testing**
+7. Select **Chrome** or any browser desired
+8. Click **Start testing with \<chosen_browser\>**
+9. A browser will open and the copied **spec** is displayed
+10. Click the **infor-qa-exam.cy.js** to run the test 
    
 ## Results:
 **Headless Result**
